@@ -10,6 +10,7 @@ java {
 group = "ru.netology"
 version = "1.0-SNAPSHOT"
 
+
 repositories {
     mavenCentral()
 }
@@ -21,4 +22,13 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
+    testLogging {
+        events("passed", "skipped", "failed")
+        showStandardStreams = true
+    }
+    systemProperty("file.encoding", "UTF-8")
 }
