@@ -1,3 +1,5 @@
+https://ci.appveyor.com/api/projects/status/5p65go2r77htgvot?svg=true
+
 # Задача №3: Postman Echo
 
 Важно: эту задачу нужно выполнять в отдельном репозитории.
