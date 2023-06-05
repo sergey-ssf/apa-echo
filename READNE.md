@@ -1,4 +1,5 @@
-https://ci.appveyor.com/api/projects/status/5p65go2r77htgvot?svg=true
+[![Build status](https://ci.appveyor.com/api/projects/status/5p65go2r77htgvot?svg=true)](https://ci.appveyor.com/project/sergey-ssf/apa-echo)
+
 
 # Задача №3: Postman Echo
 
